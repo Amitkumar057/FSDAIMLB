@@ -1,0 +1,56 @@
+body{
+    background-color: gold; 
+}
+/*.container{
+    background-color:blue;
+    height: 300px;
+    border: 2px solid red;
+    margin-left: 100px;
+
+}
+.child1{
+    background-color:yellowgreen;
+    height: 50px;
+    width: 50px;
+    margin-left: 100px;
+    color: aquamarine;
+    padding: 100px;
+    border-radius: 50%;
+}*/
+/*div>p{
+    background-color: yellow;
+}*/
+.container{
+    height: 400px;
+    background:red;
+    border: 2px solid blue;
+    
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row-reverse ;
+
+}
+.child1,.child2,.child3,.child4{
+    background-color: azure;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    margin: 30px;
+    margin-left: 50px;
+   
+    border-radius: 2px solid red ;
+}
+.child2{
+    background-color: aqua;
+}
+.child3{
+    background-color: bisque;
+}
+.child4{
+    background-color: hotpink;
+}
+    /*.myclass{
+        background-color: green  ;
+}*
