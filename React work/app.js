@@ -11,6 +11,9 @@ function ImageManipulation() {
   function enhancewidth() {
     setWidth(width + 20);
   }
+  function changeColor() {
+    
+  }
   return (
     <div className="imageCard">
       <div className="catdiv">
@@ -26,7 +29,7 @@ function ImageManipulation() {
         <br />
         <button> Image Rotate</button>
         &nbsp; &nbsp; &nbsp;
-        <button> color change</button>
+        <button onClick={changeColor}> color change</button>
       </div>
     </div>
   );
