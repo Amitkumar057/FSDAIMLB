@@ -55,6 +55,7 @@
 
 import React from 'react'
 import Regisration from './login'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App = () => {
   return (
